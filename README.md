@@ -1,0 +1,1 @@
+Link a la pagina: https://guepardito.github.io/onepieceWiki/
