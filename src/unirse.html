@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unirse - One Piece</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/unirse.css">
+</head>
+  <body>
+  <header>
+    <div id="title-container">
+      <img src="../images/one-piece.png" alt="logo de one piece">
+      <h1>One Piece</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="tripulaciones.html">Tripulaciones</a></li>
+        <li><a href="sagas.html">Sagas</a></li>
+        <li><a href="unirse.html">Unirse a la tripulación</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Contáctanos</h2>
+      <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label>Género:</label>
+        <label>
+          <input type="radio" name="genero" value="masculino" required> Masculino
+        </label>
+        <label>
+          <input type="radio" name="genero" value="femenino"> Femenino
+        </label>
+        <label>
+          <input type="radio" name="genero" value="otro"> Otro
+        </label>
+
+        <label for="fruta">Fruta del Diablo:</label>
+        <input type="text" id="fruta" name="fruta">
+
+        <label for="recompensa">Recompensa:</label>
+        <input type="number" id="recompensa" name="recompensa" min="0">
+
+        <label for="oceano">Océano de Residencia:</label>
+        <select id="oceano" name="oceano" required>
+          <option value="">Selecciona un océano</option>
+          <option value="East Blue">East Blue</option>
+          <option value="West Blue">West Blue</option>
+          <option value="North Blue">North Blue</option>
+          <option value="South Blue">South Blue</option>
+          <option value="Grand Line">Grand Line</option>
+          <option value="Nuevo Mundo">Nuevo Mundo</option>
+        </select>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" min="1">
+
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Página sobre One Piece hecha con ❤️</p>
+  </footer>
+</body>
+</html>
